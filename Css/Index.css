@@ -1,0 +1,109 @@
+body {
+    background-color: #fefeff;
+    margin: 0;
+    padding: 8;
+}
+
+#menu ul {
+    margin: 0;
+    background: #f60;
+    /* background-color:  rgb(255, 167, 5);  */
+    list-style: none;
+    text-align: left;
+    font-size: medium;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #000000;
+}
+ 
+.estilo{
+  
+    font-weight: 150;
+    font-family: Arial;
+    text-align: center;
+    font-display: fallback;
+    color: rgb(117, 28, 201);
+}
+
+#font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: left 20px;
+}
+
+.estilo1{
+    color: rgb(29, 89, 255);
+}
+
+
+
+
+
+
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; // Usado para deixar os elementos se agrupando a melhor performace, de acordo com que a pagina vai ficando piquena, esta Tag faz com que a pagina fique mais responsiva!! 
+    flex-wrap: wrap;
+    flex-direction:row
+}
+
+.produto {
+    cursor: pointer;
+}
+
+.produto p {
+    /* background: #d84c72; */
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+}
+
+.prou{
+    background: none;
+}
+
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.botao{
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: rgb(255, 164, 45);
+    color: #fff;
+    border: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 00.5em;
+    text-align: center;
+    /* box-shadow: 3px 3px 0 1px #930; */
+
+    /* transition: box-shadow 0.3s ease, transform 0.3s ease; */
+}
+
+/* .botao:active{
+    box-shadow: 0 0 0 0 #930;
+} */
+
+.botao:active{
+    box-shadow: 0 0 0 0 #930 inset 3px 3px 3px #930 ;
+    transform: translate(3px 3px );
+}
+
+
+
